@@ -12,15 +12,15 @@ pipeline {
     }
 
     stages {
-         stage('GitHub') {
-             steps {
-                 echo '- - - - - - - Connecting to GitHub - - - - - - -'
-                 git(
-                     url:"https://github.com/Lulilu61/demo-ebs.git",
-                     branch: "main"
-                     )
-             }
-             }
+        //  stage('GitHub') {
+        //      steps {
+        //          echo '- - - - - - - Connecting to GitHub - - - - - - -'
+        //          git(
+        //              url:"https://github.com/Lulilu61/demo-ebs.git",
+        //              branch: "main"
+        //              )
+        //      }
+        //      }
             
             stage('Build') {
             steps {
